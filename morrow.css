@@ -1,0 +1,532 @@
+/* By Damien Pyles, 2015*/
+
+@import url(http://fonts.googleapis.com/css?family=Cinzel:900|Open+Sans:800);
+
+
+h1, h2, h3, h4, h5, h6, th, a {
+    color:rgba(255, 97, 27, 0.97) !important;
+    
+}
+
+
+body{
+    
+  background: url('http://cs.franklin.edu/~pyles09/art.JPG') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+ li a{
+    font-family:'Cinzel' serif !important;
+    
+}
+
+
+p {
+    font-family:'Open Sans' sans-serif !important;
+    letter-spacing:1px;
+    color:white !important;
+    font-size:1.2em;
+    max-width:100% !important;
+    word-wrap:break-word;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Open Sans', sans-serif !important;
+    font-size:2em !important;
+    letter-spacing:5px;
+}
+
+c
+body {
+     margin: 0;
+     padding: 0;
+     text-align: center !important;
+  
+    
+}
+#container {
+     margin: 0 auto !important;
+     text-align: center !important;
+   width:100% !important;
+    overflow:hidden !important;
+    padding:0 !important;
+
+}
+
+#menu {
+    width:90% !important ;
+   
+    text-align:center; !important;
+    border-bottom:none;
+    margin-top:20px;
+    margin-bottom:10%;
+    margin-left:auto !important;
+    margin-right:auto !important;
+    display:block;
+
+    
+
+}
+
+
+.menu-menu-1-container{
+    width:100% !important;
+    margin-left:-2%;
+   
+    
+/*    border:solid 2px black;*/
+    
+}
+
+
+#menu-menu-1{
+    
+    width:100% !important;
+   margin-left:auto!important;
+    margin-right:auto!important;
+    text-align:left !important;
+    display:inline;
+    
+}
+
+#menu-menu-1 li{
+    float:right !important;
+    display:inline;             
+  
+
+     
+}
+
+#menu-menu-1 li a{
+    font-size:2.6vw;
+    letter-spacing:0px;
+    text-shadow: 1px 2px 2px #212121;
+    color:#ff3d3d !important;
+
+}
+
+#menu-menu-1 li a:hover{
+    color:#fca519 !important;
+}
+
+ #menu ul ul li{
+    background-color:rgba(65, 58, 58, 0.78);
+      }
+
+.sub-menu li a{
+    border:none !important;
+}
+
+#menu ul ul li a{
+    background-color:rgba(255, 255, 255, 0);
+}
+
+#menu ul ul{
+    background-color:rgba(0, 0, 0, 0);
+}
+
+#header-image{
+    width:90% !important;
+    margin:0 auto;
+}
+
+
+#header-image img{
+    display:none;
+}
+#header{
+    margin:0 auto !important;
+    width:80%;
+    position:relative;
+    top:20px;
+   
+}
+#header::before{
+    content:"Morrowville";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    color:white;
+    background-image:url('http://cs.franklin.edu/~pyles09/supe.jpg');
+    background-size:cover;
+    opacity:0.75;
+    font-family:'Cinzel' serif;
+    font-size:5.5em;
+    letter-spacing:0.3em;
+    padding-top:0.075em;
+    -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+    
+}
+
+@media screen and (max-width: 70em) {
+  #header::before{ font-size:8vw;
+  letter-spacing:0.25em;
+max-width:100%;
+  padding-top:1.2em;
+  padding-bottom:0.2em;
+  padding-right:0.5em;
+  padding-left:0.5em;
+  margin-left:-7%;
+      margin-top:-10%;
+  }
+    
+
+    
+    #header{
+        width:90%;
+        margin-right:2% !important;
+    }
+    
+  h1, h2, h3{
+      margin-top: -2% !important;
+      font-size:1.025em!important;
+      letter-spacing:2px;
+     
+  }
+    
+    #menu li a{
+        font-size:4.25vh!important;
+    }
+    .entry-meta{
+        padding:0px !important;
+    }
+    .entry-meta a{
+        font-size:80% !important;
+        padding:-2% !important;
+    }
+#menu ul{
+
+    
+    position:fixed;
+    background-color:rgba(31, 31, 31, 0.86);
+    display:block;
+    right:0;
+    top:0;
+    padding-left:0%;
+     -webkit-transform:rotate(-180deg);
+-moz-transform:rotate(-180deg); 
+-o-transform:rotate(-180deg); 
+transform:rotate(-180deg);
+ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+    z-index:5;
+display:none;
+
+}
+    #menu li{
+        display:block;
+        text-align:left;
+        max-height:100%;
+        width:100%;
+        padding-bottom:6vh;
+        margin-right:0%;
+        -webkit-transform:rotate(-180deg);
+-moz-transform:rotate(-180deg); 
+-o-transform:rotate(-180deg); 
+transform:rotate(-180deg);
+ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  
+    }
+    
+    p {
+        font-size:90%;
+    }
+    
+#menu ul ul{
+    top:-100%;
+    left:45%;
+    width:50%;
+    
+    
+}
+
+
+    
+    #menu ul ul a{
+        max-width:100px;
+        
+    }
+    
+  table, th, tr, td, thead, tbody{
+      display:block;
+  }
+    
+    th { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+    
+    td {
+        
+        position:relative;
+        padding-left:50% !important;
+       width:47% !important;
+		border-bottom: 1px solid #eee !important; 
+    }
+    
+    	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 4px;
+		left: 4px;
+		width: 15%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+        border-bottom:solid 1px white;
+	}
+    
+    
+    .bit-rsvp{
+        border-bottom:solid 1px white !important;
+    }
+    td:nth-of-type(2):before { content: "Date"; }
+	td:nth-of-type(3):before { content: "Venue"; }
+	td:nth-of-type(4):before { content: "Location"; }
+    td:nth-of-type(5):before { content: "Tickets"; }
+    
+    
+    
+}
+
+
+
+#widgets{
+    width: 80% !important;
+    margin:0 auto !important;
+    border-top:none;
+    border-bottom:solid 2px #ff8a4c;
+ 
+}
+
+#widgets h3{
+    text-shadow:2px 2px 2px #6d1414;
+}
+
+#text-4{
+    float:right !important;
+    width:30%;
+    text-align:right;
+  
+}
+
+#contents{
+   background-color:rgba(105, 47, 47, 0.79);
+   width:80% !important;
+   margin-right:auto !important;
+    margin-left:auto !important;
+    overflow:hidden;
+    padding:15px;
+    -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+    border-radius: 5px;
+    
+    
+}
+
+#contents *{
+    max-width:100%;
+    
+}
+
+.date a{
+    color:#ff9c67 !important;
+}
+
+.entry-title {
+    color:#ff9b12 !important;
+    text-shadow:2px 2px 2px rgba(105, 8, 8, 0.87);
+    
+}
+
+#post{
+    width:80% !important;
+    float:right !important;
+    
+}
+
+.main{
+    width:90% !important;
+    margin:0 auto !important;
+    text-align:center;
+    border-bottom:none !important;
+    
+}
+
+
+
+#footer{
+    margin-left:auto !important;
+    margin-right:auto !important;
+}
+
+.entry-meta{
+  
+   float:left !important;
+    
+    width:100% !important;
+    min-width:200px !important;
+    margin-right:auto !important;
+    margin-left:auto !important;
+    text-align:left !important;
+    font-size:80%; !important;
+    margin-top:2% !important;
+}
+
+
+
+.bit-track-artist-header{
+    border:none !important;
+}
+
+.bit-invert{
+    border-radius:   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+    border-radius: 5px;
+    
+}
+
+
+
+table{
+    
+    font-family: 'Open Sans', sans-serif;
+    border-collapse:collapse;
+    width: 100% !important;
+    font-size:0.97em;
+}
+
+td{
+    border:none !important;
+    
+
+}
+
+.bit-event-data{
+    color:white !important;
+}
+
+th{
+    border-bottom:solid 1px orange;
+}
+
+table{
+    border-bottom:none !important;
+}
+.entry-content{
+    width:100% !important;
+    margin:0 auto !important;
+    
+}
+
+.bit-events{
+width:100% !important;
+margin:0 auto;}
+
+
+
+#submit{
+    background-color:rgba(255, 97, 27, 0.97) !important;
+    border:none;
+    color:white;
+    padding:7px;
+       border-radius:   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+#submit:hover{
+    background-color:#ddb200 !important;
+}
+
+#footer{
+    max-width:100% !important;
+    margin:0 auto !important;
+}
+
+#mobile{
+    position:fixed;
+    top:0;
+    right:0;
+    margin-top:0.5em;
+    z-index:100;
+}
+
+.mobile {
+
+    position:relative;
+    padding-left:0.3em;
+    color:rgba(128, 128, 0, 0) !important;
+    
+}
+
+.bottom{
+    color:rgba(128, 128, 0, 0) !important;
+    position:absolute;
+    top:0.12em;
+    left:0;
+    border-bottom:0.265em solid white;
+    width:2.1em;
+    height:0.25em;
+    
+}
+.mobile:before{
+    content:"";
+    width:2.1em;
+    position:absolute;
+    top:0.12em;
+    left:0;
+    height:0.25em;
+    border-top:0.265em solid orange;
+    
+    transition: all  0.5s ease;
+   }
+
+.mobile:after{
+    content:"";
+    width:2.1em;
+    position:absolute;
+    top:0.27em;
+    left:0;
+    height:0.25em;
+    border-bottom:0.73em double orange;
+    transition: all 0.5s ease;
+
+}
+.mobile.pushed:before{
+    
+    border-color:white;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    margin-top:10%;
+    width:1.75em;
+    }
+
+.mobile.pushed:after{
+    border-bottom:0.265em solid;
+    border-color:white;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    width:1.75em;
+}
+
+    
+.caret:after{
+    content:" \00BB";
+   
+}
+
